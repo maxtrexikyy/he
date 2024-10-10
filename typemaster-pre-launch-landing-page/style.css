@@ -1,0 +1,175 @@
+
+body{
+    font-family: "Barlow","sans-serif";
+}
+.container{
+width:1110px;
+margin:0 auto;
+}
+
+header{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*////////////////////////////////////////////////////////////////*/
+.btn{
+    padding: 16px 20px;
+    background-color: #EBEFF2;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*////////////////////////////////////////////////////////////////*/
+main{
+
+display: flex;
+justify-content:space-between;
+
+}
+main>div{
+    width: 380px;
+    justify-content: start;
+}
+
+main>div>h1{
+    
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+height: 70px;
+width: 2px;
+}
+
+main>div>a{
+    font-weight: 10;
+    color: gray;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+main>img{
+    
+    height: 270px;
+    width: 370px;
+    border-radius: 25px;
+
+}
+
+
+
+
+/*////////////////////////////////////////////////////////////////*/
+.buttons{
+    margin-top: 20px;
+
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons>div:nth-child(2){
+background-color: #fcfcfcee;
+border-radius: 6px;
+padding: 9px;
+color: gray;
+font-weight: 750;
+color:gray;
+font-family: Arial, Helvetica, sans-serif;
+}
+.buttons>div:nth-child(1){
+    display: flex;
+    width: 140px;
+    padding: 10px;
+    border-radius: 6px;
+    color: rgb(238, 238, 238);
+    background-color: #ff6200;
+    font-weight: 800;
+    
+
+}
+
+/*////////////////////////////////////////////////////////////////*/
+
+.description{
+margin-top: 20px;
+display: flex;
+
+justify-content: space-between;
+}
+.description>img{
+    border-radius: 15px;
+    width: 40%;
+}
+.description>div{
+
+    margin-left: 25px;
+    width: 220px;
+
+}
+    
+.description>div>h1{
+
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.description>div>a{
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*////////////////////////////////////////////////////////////////*/
+.logo{
+    padding: 10px;
+    background-color: #ff6200;
+border-radius: 5px;
+
+}
+/*////////////////////////////////////////////////////////////////*/
+
+
+.features{
+
+    display:flex;
+    justify-content: space-between;
+    width: 1250px;    
+margin-top: 50px;
+
+}
+
+/*----*/
+
+
+.feature{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+
+}
+.feature>h1{
+    width: 190px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.feature>a{
+color: gray;
+    font-weight: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+/*////////////////////////////////////////////////////////////////*/
+footer{
+
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+
+}
